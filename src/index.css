@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.cha{
+  display: flex;
+}
+.box{
+  font-family: "Roboto", sans-serif;
+  height: 400px;
+  width: 96%;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 0 0 10px white;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-left: 2% ;
+}
+.box h1{
+  text-align: center;
+}
+.box h2{
+  margin-left: 3%;
+}
+.box p{
+  font-family: "Roboto", sans-serif;
+  margin-left: 2px;
+  margin-top: -1px;
+}
+.box input{
+  margin-left: 4%;
+  margin-top: -15px;
+  cursor: pointer;
+  
+}
+.butt{
+   height: 40px;
+   width: 100px;
+   border: 1px solid transparent;
+   border-radius: 5px;
+   background-color: rgb(38, 38, 250);
+   color: white;
+   font-size: 15px;
+   margin-left: 90%;
+   margin-top: 2%;
+}
+.but{
+  display: flex;
+}
+.butt1{
+  position: absolute;
+  height: 38px;
+  width: 100px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(38, 38, 250);
+  color: white;
+  font-size: 15px;
+  margin-left: 85%;
+  margin-top: 2%;
+}
+.butt1 p{
+  font-size: 15px;
+  text-align: center;
+  margin-top:9px;
+  
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.popup{
+  position: fixed;
+  top: 20%;
+  left: 40%;
+  height: 150px;
+  width: 200px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  box-shadow: 0 0 10px black;
+}
+.popup1{
+  text-align: center;
+  display: flex;
+}
+.popup1 i{
+  color: red;
+  margin-left: 180px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.popup h1{
+  font-size: 25px;
+  color: rgb(9, 138, 9);
+  text-shadow: 0 0 30px green;
+}
+.popup h2{
+  font-size: 25px;
+  color: rgb(161, 11, 11);
+  text-shadow: 0 0 30px red;
+}
